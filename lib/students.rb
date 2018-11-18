@@ -2,8 +2,7 @@
 
 def highest_student_gpa
   # SELECT AVG(column_name) FROM table_name;
-  "SELECT AVG"(gpa) FROM
-
+  "SELECT AVG(gpa) FROM students"
 end
 
 def lowest_student_gpa
